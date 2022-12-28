@@ -1,0 +1,21 @@
+.footer {
+    background-color: #fcf9f9;
+    display: flex;
+    justify-content: space-around;
+    li {
+        list-style-type: none;
+    }
+}
+
+.foot1 {
+    display: flex;
+    background-color: #fcf9f9;
+    justify-content: space-around;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    li {
+        list-style-type: none;
+        width: 50%;
+    }
+}

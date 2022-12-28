@@ -1,0 +1,12 @@
+.trash {
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.trash-item {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}

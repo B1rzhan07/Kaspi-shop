@@ -1,0 +1,36 @@
+@import 'macro-css';
+.headerWrapper {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 75px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 17px;
+    .logo {
+        margin-left: 150px;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 0;
+        margin-left: -75px;
+        width: 30%;
+        li {
+            list-style-type: none;
+        }
+    }
+    .empty {
+        width: 20%;
+    }
+}

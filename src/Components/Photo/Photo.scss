@@ -1,0 +1,25 @@
+.imgWrapper {
+    margin-top: 75px;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    img {
+        width: 40%;
+        height: 100%;
+    }
+}
